@@ -1,0 +1,18 @@
+<configuration>
+
+    <appender name="LogAIAgentAppender" class="io.github.vishalmysore.LogAIAgentAppender"/>
+
+    <root level="info">
+        <appender-ref ref="LogAIAgentAppender"/>
+    </root>
+    <property name="tools4ai.log" value="${tools4ai.log:-WARN}"/>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.t4a" level="info" additivity="false">
+        <appender-ref ref="STDOUT" />
+    </logger>
+</configuration>
