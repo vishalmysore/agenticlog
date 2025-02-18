@@ -13,12 +13,12 @@ AgenticLog is an intelligent logging system that leverages AI to **automatically
 
 For example:
 
-```java logger.error("ERROR customer-support error, customer ID 12345, query: \"What is the status of my order?\""); ```
+``` logger.error("ERROR customer-support error, customer ID 12345, query: \"What is the status of my order?\""); ```
 
 The AI detects a customer inquiry and call
 
-```java createSupportTicket(customerId, query) ```
+``` createSupportTicket(customerId, query) ```
 
 If the log contains an escalation request
 
-```java escalateIssue(errorMessage) ```
+``` escalateIssue(errorMessage) ```
