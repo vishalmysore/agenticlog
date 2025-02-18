@@ -1,4 +1,4 @@
-package io.github.vishalmysore;
+package io.github.vishalmysore.agents;
 
 
 import com.t4a.annotations.Action;
@@ -6,7 +6,7 @@ import com.t4a.annotations.Agent;
 import com.t4a.annotations.Prompt;
 
 @Agent(groupName = "Customer Support", groupDescription = "Handling the log events related to customer queries")
-public class LogHandlingAgent {
+public class CustomerSupportLogAgent {
 
     // Action to create a support ticket based on log entry
     @Action(description = "Create a support ticket for a customer")

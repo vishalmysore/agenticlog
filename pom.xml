@@ -37,6 +37,13 @@
             <artifactId>tools4ai</artifactId>
             <version>1.0.7</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.github.jbellis/jvector -->
+        <dependency>
+            <groupId>io.github.jbellis</groupId>
+            <artifactId>jvector</artifactId>
+            <version>3.0.6</version>
+        </dependency>
+
     </dependencies>
 
 </project>
