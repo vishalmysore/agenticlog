@@ -2,8 +2,9 @@
 
     <appender name="LogAIAgentAppender" class="io.github.vishalmysore.LogAIAgentAppender"/>
 
+    <appender name="A2ALogAppender" class="io.github.vishalmysore.A2ALogAppender"/>
     <root level="info">
-        <appender-ref ref="LogAIAgentAppender"/>
+        <appender-ref ref="A2ALogAppender"/>
     </root>
     <property name="tools4ai.log" value="${tools4ai.log:-WARN}"/>
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
