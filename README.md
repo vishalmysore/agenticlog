@@ -1,7 +1,8 @@
 # **Google A2A AgenticLog - AI-Driven Log Processing**
 
 ## **Overview**
-Google A2A AgenticLog is an intelligent logging system that leverages Google A2A protocol and AI agent to **automatically process log messages** and take appropriate actions based on their context. Instead of relying on static rule-based processing, it uses an **agentic approach** to dynamically route logs to the correct handlers.
+Google A2A AgenticLog is an intelligent logging system that leverages Google A2A protocol and AI agent to **automatically process log messages** and take appropriate actions based on their context. Instead of relying on static rule-based processing, it uses an **agentic approach** to dynamically route logs to the correct handlers.  
+A2AJava is theJava implementation of the Google A2A protocol you can check the project [here](https://github.com/vishalmysore/a2ajav) . 
 
 <img src="logs2.png" alt="Build Logs"></img>
 ## **How It Works**
